@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
     <name>talkable</name>
-    <version>0.1.0</version>
+    <version>0.1.1</version>
     <stability>stable</stability>
     <license uri="http://opensource.org/licenses/mit-license.php">MIT License</license>
     <channel>community</channel>
@@ -9,16 +9,16 @@
     <summary>Talkable (http://www.talkable.com) integration for Magento</summary>
     <description>Talkable enables your Magento store to attract new customers by offering them special deals in exchange for sharing with their friends.&#xD;
 &#xD;
-This checkout extension provides links for them to share their purchase on Facebook, Twitter, and Email and encourages them to bring in new customers for you.&#xD;
+This extension provides links for them to share their purchase on Facebook, Twitter, and Email and encourages them to bring in new customers for you.&#xD;
 &#xD;
 Using Talkable, you help your customers drive more referral sales per dollar than traditional marketing and advertising.&#xD;
 &#xD;
 See more at Talkable.com</description>
     <notes>First release</notes>
     <authors><author><name>Talkable</name><user>talkable</user><email>sub@talkable.com</email></author></authors>
-    <date>2015-02-13</date>
-    <time>16:19:34</time>
-    <contents><target name="magecommunity"><dir name="Talkable"><dir name="CheckoutOffer"><dir name="Block"><file name="Checkoutoffer.php" hash="aa13875f0f19a5458acdcb9bab4b0d6d"/><dir name="Multishipping"><file name="Checkoutoffer.php" hash="26d43303b2122e30697f8d9d97d99436"/></dir></dir><dir name="Helper"><file name="Data.php" hash="730ff9c0df996dc8334858db12c06602"/></dir><dir name="etc"><file name="adminhtml.xml" hash="6de12c9a1bf4bc22737e4742f65c7829"/><file name="config.xml" hash="e99fbf72ff144279c37b802520dfa29c"/><file name="system.xml" hash="49627bcd4c99d0366d014415a8ab8fae"/></dir></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><dir name="talkable"><file name="checkoutoffer.xml" hash="acf34bd5e1ca703e0f66e26d3a706194"/></dir></dir><dir name="template"><dir name="talkable"><dir name="checkoutoffer"><file name="checkoutoffer.phtml" hash="5cc30bdeed4ed6c7126125c79306227a"/></dir></dir></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Talkable_CheckoutOffer.xml" hash="54ba77732976d0fd5bc3d744263dc671"/></dir></target></contents>
+    <date>2015-02-18</date>
+    <time>12:34:23</time>
+    <contents><target name="magecommunity"><dir name="Talkable"><dir name="SocialReferrals"><dir name="Block"><file name="Affiliate.php" hash="e5cf1648f2aab8c8894fd1311ae865b8"/><dir name="Multishipping"><file name="Purchase.php" hash="6eaab3557bdf97f40a77c7b6e040e483"/></dir><file name="Purchase.php" hash="5cd37269372b88cec4657bf85077c1a4"/></dir><dir name="Helper"><file name="Data.php" hash="5edcb929ebae8c45151cbceb69d75544"/></dir><dir name="controllers"><file name="IndexController.php" hash="3af0ec76d8edc7b7bccbb1375e7a8045"/></dir><dir name="etc"><file name="adminhtml.xml" hash="3f86a3e4bf980fa36aba8c0e33737e59"/><file name="config.xml" hash="05f9e39822aa44b75c972d422419d6ee"/><file name="system.xml" hash="7ecf7e23f655ac932af4e56cd3446d4f"/></dir></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><dir name="talkable"><file name="socialreferrals.xml" hash="229ed61d0a4f0ea343248f85fc4f1d83"/></dir></dir><dir name="template"><dir name="talkable"><dir name="socialreferrals"><file name="register_affiliate.phtml" hash="7df514f68944239ed13e0d6d924c82c3"/><file name="register_purchase.phtml" hash="5d0e67f9a983bbaf57c6f6e84cdcd1d6"/></dir></dir></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Talkable_SocialReferrals.xml" hash="ed1152e3c169ac8e9d33219e5ec9fb47"/></dir></target></contents>
     <compatible/>
     <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php></required></dependencies>
 </package>

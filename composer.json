@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/talkable",
+    "name": "OpenMageModuleFostering\/talkable",
     "type": "magento-module",
     "license": "MIT-License",
     "homepage": "",
-    "description": "Talkable (http://www.talkable.com) integration for Magento",
+    "description": "Talkable (http:\/\/www.talkable.com) integration for Magento",
     "authors": [
-    {
-        "name": "Talkable",
-        "email": "sub@talkable.com"
-    }
-],
+        {
+            "name": "Talkable",
+            "email": "sub@talkable.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
